@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('scm') {
             steps {
-                git 'https://github.com/GitPracticeRepo/java11-examples.git'
+                git 'https://github.com/nanipradeep/java11-examples.git'
             }
         }
         stage('build') {
